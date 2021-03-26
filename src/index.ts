@@ -4,4 +4,4 @@ const PORT = process.env.PORT || 9000;
 
 app.get("/", (req, res) => res.send("GQL Backend 👍"));
 
-app.listen(PORT, () => console.log(`Yahoo, App is running on ${PORT} 👍`));
+app.listen(PORT, () => console.log(`App is running on ${PORT} 👍`));
